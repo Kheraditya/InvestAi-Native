@@ -46,11 +46,6 @@ const AlertModel = () => {
       <TouchableOpacity onPress={showModal}>
         <AlertCard />
       </TouchableOpacity>
-      <AlertCard />
-      <AlertCard />
-      <AlertCard />
-      <AlertCard />
-      <AlertCard />
     </View>
   );
 };

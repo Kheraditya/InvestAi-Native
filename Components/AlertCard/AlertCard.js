@@ -1,7 +1,16 @@
-import { StyleSheet, Text, View, Image, Modal } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  View,
+  Image,
+  Modal,
+  ImageBackground,
+} from "react-native";
 import Ionicons from "react-native-vector-icons/Ionicons";
 import React from "react";
 import { TouchableOpacity } from "react-native";
+
+const white = "#ffffff";
 
 const AlertCard = () => {
   const [visible, setVisible] = React.useState(false);
@@ -41,7 +50,7 @@ const AlertCard = () => {
           </View>
         </View>
       </Modal>
-      <TouchableOpacity style={styles.container} onPress={showModal}>
+      {/* <TouchableOpacity style={styles.container} onPress={showModal}>
         <Text style={styles.text}>
           Data is being fetched from the backend side and being displayed here.
         </Text>
@@ -49,6 +58,40 @@ const AlertCard = () => {
           source={require("../../assets/drawer-cover.jpeg")}
           style={styles.image}
         />
+      </TouchableOpacity> */}
+      <TouchableOpacity style={styles.container2} onPress={showModal}>
+        <ImageBackground
+          source={require("../../assets/cloud.png")}
+          style={{ marginTop: 30, height: 150 }}
+        >
+          <View style={{ display: "flex", flexDirection: "row" }}>
+            <View style={styles.containerMain}>
+              <Ionicons name="pulse-outline" size={30} color={white} />
+              <Text style={styles.text2}>Financial Break</Text>
+            </View>
+
+            <View style={styles.containerSub}>
+              <View
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  marginRight: 15,
+                }}
+              >
+                <Text style={styles.text}>HOT</Text>
+              </View>
+              <View
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  marginRight: 15,
+                }}
+              >
+                <Text style={styles.text}>HOT</Text>
+              </View>
+            </View>
+          </View>
+        </ImageBackground>
       </TouchableOpacity>
     </View>
   );
@@ -59,23 +102,45 @@ export default AlertCard;
 const styles = StyleSheet.create({
   container: {
     height: 150,
-    width: "auto",
+    width: 250,
     display: "flex",
     flexDirection: "row",
     marginBottom: 5,
-    marginLeft: 3,
-    marginRight: 3,
-
-    justifyContent: "space-between",
-    backgroundColor: "#F6F6DB",
+    marginLeft: 10,
+    marginRight: 10,
     alignItems: "center",
   },
-  text: {
+  container2: {
+    borderRadius: 30,
+    width: "50%",
+    height: 150,
+    backgroundColor: "#ff7648",
+    overflow: "hidden",
+  },
+  containerMain: {
+    paddingTop: 25,
+    paddingLeft: 10,
+  },
+  containerSub: {
+    display: "flex",
+    flexDirection: "column",
+    paddingTop: 65,
+    width: 60,
+  },
+  text2: {
     fontSize: 15,
-    fontWeight: "300",
-    paddingRight: 10,
-    paddingLeft: 15,
-    width: 300,
+    fontWeight: "bold",
+    paddingTop: 5,
+    color: "#fff",
+    width: "70%",
+  },
+  text: {
+    fontSize: 12,
+    fontWeight: "bold",
+    paddingLeft: 20,
+    color: "#fff",
+    width: "100%",
+    marginTop: 5,
   },
   image: {
     width: 60,

@@ -1,6 +1,15 @@
 import React from "react";
 import { createStackNavigator } from "@react-navigation/stack";
-import { Invest, Stock } from "../Screens";
+import {
+  Invest,
+  Stock,
+  Plan,
+  Asset,
+  Strategies,
+  Management,
+  Risk,
+  Compounding,
+} from "../Screens";
 
 import ScreenHeader from "../Components/common/header/ScreenHeader";
 import menu from "../assets/menu.png";
@@ -15,12 +24,22 @@ function InvestNavigator() {
     <Stack.Navigator
       screenOptions={{
         headerStyle: { height: 5 },
-
+        headerLeft: () => (
+          <TouchableOpacity>
+            <Ionicons name="" size={27} />
+          </TouchableOpacity>
+        ),
         headerTitle: "",
       }}
       initialRouteName={"Invest"}
     >
       <Stack.Screen name={"Invest"} component={Invest} />
+      <Stack.Screen name={"Plan"} component={Plan} />
+      <Stack.Screen name={"Asset"} component={Asset} />
+      <Stack.Screen name={"Strategies"} component={Strategies} />
+      <Stack.Screen name={"Management"} component={Management} />
+      <Stack.Screen name={"Risk"} component={Risk} />
+      <Stack.Screen name={"Compounding"} component={Compounding} />
     </Stack.Navigator>
   );
 }

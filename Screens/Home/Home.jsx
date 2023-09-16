@@ -7,13 +7,7 @@ import {
   ScrollView,
 } from "react-native";
 
-// import Welcome from "./Welcome";
-
-// import Features from "./KeyFeatures";
-
 import React from "react";
-
-import AlertModel from "../../Components/AlertCard/AlertModel/AlertModel";
 import AlertCard from "../../Components/AlertCard/AlertCard";
 
 const Home = ({ navigation }) => {
@@ -29,14 +23,20 @@ const Home = ({ navigation }) => {
         
           <Features navigation={navigation} />
         </View> */}
-
-        <View style={styles.container}>
-          <AlertCard />
-          <AlertCard />
-          <AlertCard />
-          <AlertCard />
-          <AlertCard />
-          <AlertCard />
+        <Text style={styles.text}>Trending Now :</Text>
+        <View style={{ marginTop: 30, marginLeft: 10, marginRight: 20 }}>
+          <View>
+            <AlertCard />
+          </View>
+          <View style={styles.container2}>
+            <AlertCard />
+          </View>
+          <View>
+            <AlertCard />
+          </View>
+          <View style={styles.container2}>
+            <AlertCard />
+          </View>
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -48,5 +48,21 @@ export default Home;
 const styles = StyleSheet.create({
   container: {
     paddingTop: 10,
+    paddingLeft: 5,
+    backgroundColor: "#65a4da",
+    marginLeft: 10,
+    height: 150,
+    width: 250,
+    marginTop: 10,
+  },
+  container2: {
+    width: "100%",
+    marginLeft: "48%",
+  },
+  text: {
+    fontSize: 25,
+    fontWeight: "bold",
+    marginLeft: 20,
+    marginTop: 20,
   },
 });

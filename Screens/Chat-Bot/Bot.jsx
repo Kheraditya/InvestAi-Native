@@ -14,6 +14,7 @@ import React from "react";
 import { ChatBot } from "../../Screens";
 //import { useNavigation } from "@react-navigation/native";
 import photo from "../../assets/Privacy.png";
+import APIs from "../../Components/API";
 
 const Bot = ({ navigation }) => {
   return (
@@ -40,6 +41,8 @@ const Bot = ({ navigation }) => {
             {/* <TextInput style={styles.loginBtn} placeholder="Type Your Querry" /> */}
             <ChatBot />
           </View>
+
+          {/* <APIs /> */}
         </View>
       </ScrollView>
     </SafeAreaView>
