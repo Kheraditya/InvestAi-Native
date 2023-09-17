@@ -27,7 +27,13 @@ const Asset = () => {
           </Text>
         </View>
         <View style={styles.pointContainer}>
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtu.be/SrQTOhafE4A?si=h1p6_j_PSAQ5Bt1s"
+              );
+            }}
+          >
             <View style={styles.bulletpoint}>
               <View style={styles.pointer}>
                 <Text>01</Text>
@@ -42,7 +48,13 @@ const Asset = () => {
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtu.be/SrQTOhafE4A?si=h1p6_j_PSAQ5Bt1s"
+              );
+            }}
+          >
             <View style={styles.bulletpoint2}>
               <View style={styles.pointerDetail2}>
                 <Text>Age-Based Asset Allocation</Text>
@@ -57,7 +69,13 @@ const Asset = () => {
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtu.be/SrQTOhafE4A?si=h1p6_j_PSAQ5Bt1s"
+              );
+            }}
+          >
             <View style={styles.bulletpoint}>
               <View style={styles.pointer}>
                 <Text>03</Text>
@@ -72,7 +90,13 @@ const Asset = () => {
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtu.be/SrQTOhafE4A?si=h1p6_j_PSAQ5Bt1s"
+              );
+            }}
+          >
             <View style={styles.bulletpoint2}>
               <View style={styles.pointerDetail2}>
                 <Text>Diversification in Investing</Text>
@@ -87,7 +111,13 @@ const Asset = () => {
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtu.be/SrQTOhafE4A?si=h1p6_j_PSAQ5Bt1s"
+              );
+            }}
+          >
             <View style={styles.bulletpoint}>
               <View style={styles.pointer}>
                 <Text>05</Text>

@@ -27,7 +27,9 @@ const Plan = () => {
         <View style={styles.pointContainer}>
           <TouchableOpacity
             onPress={() => {
-              Linking.openURL("https://www.youtube.com/watch?v=KAh2TOrtTq4");
+              Linking.openURL(
+                "https://youtu.be/pd29VYF6e-U?si=YXUluuFjLnmeEQ22"
+              );
             }}
           >
             <View style={styles.bulletpoint}>
@@ -47,7 +49,9 @@ const Plan = () => {
 
           <TouchableOpacity
             onPress={() => {
-              Linking.openURL("https://www.youtube.com/watch?v=KAh2TOrtTq4");
+              Linking.openURL(
+                "https://youtube.com/shorts/i8-QCXtBCVE?si=uzQNqXIXOYtKyQZ8"
+              );
             }}
           >
             <View style={styles.bulletpoint2}>
@@ -59,7 +63,7 @@ const Plan = () => {
               </View>
               <View style={styles.pointerLine2}></View>
               <View style={styles.pointer2}>
-                <Text>01</Text>
+                <Text>02</Text>
               </View>
             </View>
           </TouchableOpacity>
@@ -71,7 +75,7 @@ const Plan = () => {
           >
             <View style={styles.bulletpoint}>
               <View style={styles.pointer}>
-                <Text>01</Text>
+                <Text>03</Text>
               </View>
               <View style={styles.pointerLine}></View>
               <View style={styles.pointerSmall}>
@@ -85,7 +89,9 @@ const Plan = () => {
 
           <TouchableOpacity
             onPress={() => {
-              Linking.openURL("https://www.youtube.com/watch?v=KAh2TOrtTq4");
+              Linking.openURL(
+                "https://youtu.be/1d-2RBncN4U?si=DhHDGpmXMYunuHb1"
+              );
             }}
           >
             <View style={styles.bulletpoint2}>
@@ -104,7 +110,9 @@ const Plan = () => {
 
           <TouchableOpacity
             onPress={() => {
-              Linking.openURL("https://www.youtube.com/watch?v=KAh2TOrtTq4");
+              Linking.openURL(
+                "https://youtu.be/pd29VYF6e-U?si=YXUluuFjLnmeEQ22"
+              );
             }}
           >
             <View style={styles.bulletpoint}>

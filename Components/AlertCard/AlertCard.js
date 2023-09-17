@@ -137,10 +137,10 @@ const styles = StyleSheet.create({
   text: {
     fontSize: 12,
     fontWeight: "bold",
-    paddingLeft: 20,
+    paddingLeft: "13%",
     color: "#fff",
     width: "100%",
-    marginTop: 5,
+    marginTop: "7%",
   },
   image: {
     width: 60,

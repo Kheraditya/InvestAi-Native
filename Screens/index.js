@@ -17,7 +17,7 @@ import Strategies from "./Investment/Strategies.jsx";
 import Asset from "./Investment/Asset.jsx";
 
 // Chat-Bot
-import Bot from "./Chat-Bot/Bot.jsx";
+import Bot from "./Chat-Bot/Bot.js";
 import ChatBot from "./Chat-Bot/ChatBot.jsx";
 
 //auth scrteen

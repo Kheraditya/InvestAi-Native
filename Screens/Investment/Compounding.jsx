@@ -26,7 +26,13 @@ const Compounding = () => {
           </Text>
         </View>
         <View style={styles.pointContainer}>
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtube.com/shorts/sU9SFT1nAOw?si=iJotSDnX6_LStSc6"
+              );
+            }}
+          >
             <View style={styles.bulletpoint}>
               <View style={styles.pointer}>
                 <Text>01</Text>
@@ -41,7 +47,13 @@ const Compounding = () => {
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtube.com/shorts/sU9SFT1nAOw?si=iJotSDnX6_LStSc6"
+              );
+            }}
+          >
             <View style={styles.bulletpoint2}>
               <View style={styles.pointerDetail2}>
                 <Text>Compound vs. Simple</Text>
@@ -56,7 +68,13 @@ const Compounding = () => {
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtube.com/shorts/jXoVu8DN0O8?si=RKi0THbjhJUnSUsh"
+              );
+            }}
+          >
             <View style={styles.bulletpoint}>
               <View style={styles.pointer}>
                 <Text>03</Text>
@@ -71,7 +89,13 @@ const Compounding = () => {
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtube.com/shorts/Z2nT-XBVdp4?si=cAgcROLuKkyPva2m"
+              );
+            }}
+          >
             <View style={styles.bulletpoint2}>
               <View style={styles.pointerDetail2}>
                 <Text>Discrete Compounding</Text>
@@ -86,7 +110,13 @@ const Compounding = () => {
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtube.com/shorts/Z2nT-XBVdp4?si=cAgcROLuKkyPva2m"
+              );
+            }}
+          >
             <View style={styles.bulletpoint}>
               <View style={styles.pointer}>
                 <Text>05</Text>

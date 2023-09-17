@@ -27,7 +27,13 @@ const Management = () => {
           </Text>
         </View>
         <View style={styles.pointContainer}>
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtu.be/GvVJKFyS0WI?si=vFABfv2a4DLeTmyd"
+              );
+            }}
+          >
             <View style={styles.bulletpoint}>
               <View style={styles.pointer}>
                 <Text>01</Text>
@@ -42,7 +48,13 @@ const Management = () => {
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtu.be/GvVJKFyS0WI?si=vFABfv2a4DLeTmyd"
+              );
+            }}
+          >
             <View style={styles.bulletpoint2}>
               <View style={styles.pointerDetail2}>
                 <Text>High Management Fees Worth the Cost?</Text>
@@ -57,7 +69,13 @@ const Management = () => {
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtu.be/EKVW0zWGMdk?si=LgWjiKhwvKWEGceu"
+              );
+            }}
+          >
             <View style={styles.bulletpoint}>
               <View style={styles.pointer}>
                 <Text>03</Text>
@@ -72,7 +90,13 @@ const Management = () => {
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtu.be/EKVW0zWGMdk?si=LgWjiKhwvKWEGceu"
+              );
+            }}
+          >
             <View style={styles.bulletpoint2}>
               <View style={styles.pointerDetail2}>
                 <Text>Avoid Overdraft Fees</Text>
@@ -87,7 +111,13 @@ const Management = () => {
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtu.be/EKVW0zWGMdk?si=LgWjiKhwvKWEGceu"
+              );
+            }}
+          >
             <View style={styles.bulletpoint}>
               <View style={styles.pointer}>
                 <Text>05</Text>

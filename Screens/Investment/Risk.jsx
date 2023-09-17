@@ -26,7 +26,13 @@ const Risk = () => {
           </Text>
         </View>
         <View style={styles.pointContainer}>
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtu.be/7Onpd8iMXpQ?si=RjcSkDmyNH-ed8IB"
+              );
+            }}
+          >
             <View style={styles.bulletpoint}>
               <View style={styles.pointer}>
                 <Text>01</Text>
@@ -41,7 +47,13 @@ const Risk = () => {
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtu.be/8JTBeh1IbK8?si=115QAcx2xSYXLy5b"
+              );
+            }}
+          >
             <View style={styles.bulletpoint2}>
               <View style={styles.pointerDetail2}>
                 <Text>Capital Asset Pricing Model</Text>
@@ -56,7 +68,13 @@ const Risk = () => {
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtu.be/8JTBeh1IbK8?si=115QAcx2xSYXLy5b"
+              );
+            }}
+          >
             <View style={styles.bulletpoint}>
               <View style={styles.pointer}>
                 <Text>03</Text>
@@ -71,7 +89,13 @@ const Risk = () => {
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtu.be/LRgWGsrzMAU?si=ansNwy3m8xw4x7ZJ"
+              );
+            }}
+          >
             <View style={styles.bulletpoint2}>
               <View style={styles.pointerDetail2}>
                 <Text>Standard Deviation</Text>
@@ -86,7 +110,13 @@ const Risk = () => {
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtu.be/WxoNEtQSxd4?si=tekDiH-ZL_5_jXii"
+              );
+            }}
+          >
             <View style={styles.bulletpoint}>
               <View style={styles.pointer}>
                 <Text>05</Text>

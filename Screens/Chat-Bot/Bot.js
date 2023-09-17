@@ -10,13 +10,14 @@ import {
 } from "react-native";
 import { Appbar } from "react-native-paper";
 import { Stack, useRouter } from "expo-router";
-import React from "react";
-import { ChatBot } from "../../Screens";
+import React, { useState, useCallback, useEffect } from "react";
+import ChatBot from "./ChatBot";
 //import { useNavigation } from "@react-navigation/native";
 import photo from "../../assets/Privacy.png";
 import APIs from "../../Components/API";
+import { GiftedChat } from "react-native-gifted-chat";
 
-const Bot = ({ navigation }) => {
+const Bot = () => {
   return (
     <SafeAreaView>
       <ScrollView>
@@ -37,12 +38,12 @@ const Bot = ({ navigation }) => {
             <Text style={styles.DescChat2}>You can ask me anything</Text>
           </View>
 
-          <View>
-            {/* <TextInput style={styles.loginBtn} placeholder="Type Your Querry" /> */}
-            <ChatBot />
-          </View>
+          {/* <View style={{ marginBottom: 60 }}>
+            <TextInput style={styles.loginBtn} placeholder="Type Your Querry" />
+            
+          </View> */}
 
-          {/* <APIs /> */}
+          <ChatBot />
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -68,7 +69,7 @@ const styles = StyleSheet.create({
     fontWeight: "400",
   },
   ImageStyle: {
-    marginTop: 75,
+    marginTop: 55,
     height: 100,
     width: 100,
     alignSelf: "center",

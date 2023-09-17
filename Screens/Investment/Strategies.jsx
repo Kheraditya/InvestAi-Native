@@ -25,7 +25,13 @@ const Strategies = () => {
           </Text>
         </View>
         <View style={styles.pointContainer}>
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtu.be/0XYB7aiD20c?si=V1SYFliWTNxFIgxT"
+              );
+            }}
+          >
             <View style={styles.bulletpoint}>
               <View style={styles.pointer}>
                 <Text>01</Text>
@@ -40,7 +46,13 @@ const Strategies = () => {
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtu.be/rdX_fkFFBok?si=yK9lgE2WYwRq2TtU"
+              );
+            }}
+          >
             <View style={styles.bulletpoint2}>
               <View style={styles.pointerDetail2}>
                 <Text>What Is Passive Management</Text>
@@ -55,7 +67,13 @@ const Strategies = () => {
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtu.be/rdX_fkFFBok?si=yK9lgE2WYwRq2TtU"
+              );
+            }}
+          >
             <View style={styles.bulletpoint}>
               <View style={styles.pointer}>
                 <Text>03</Text>
@@ -70,7 +88,13 @@ const Strategies = () => {
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtu.be/rdX_fkFFBok?si=yK9lgE2WYwRq2TtU"
+              );
+            }}
+          >
             <View style={styles.bulletpoint2}>
               <View style={styles.pointerDetail2}>
                 <Text>What Is Growth Investing</Text>
@@ -85,7 +109,13 @@ const Strategies = () => {
             </View>
           </TouchableOpacity>
 
-          <TouchableOpacity>
+          <TouchableOpacity
+            onPress={() => {
+              Linking.openURL(
+                "https://youtu.be/rdX_fkFFBok?si=yK9lgE2WYwRq2TtU"
+              );
+            }}
+          >
             <View style={styles.bulletpoint}>
               <View style={styles.pointer}>
                 <Text>05</Text>

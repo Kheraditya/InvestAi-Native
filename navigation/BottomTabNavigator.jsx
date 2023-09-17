@@ -69,7 +69,10 @@ export default function BottomNavigator() {
       <Tab.Screen
         name={BotName}
         component={ChatNavigator}
-        options={{ headerShown: false }}
+        options={{
+          headerShown: false,
+          //tabBarStyle: { display: "none" },
+        }}
       />
     </Tab.Navigator>
   );
